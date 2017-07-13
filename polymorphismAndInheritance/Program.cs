@@ -29,10 +29,12 @@ namespace polymorphismAndInheritance
             //car1.Color = "Gold";
             //Console.WriteLine("My car is " + car1.Color + car1.GetDistanceTraveled());
 
-            Aircraft plane1 = new Aircraft(100, 1000000, "white", 600);
-            plane1.Move();
-            plane1.Move();
-            Console.WriteLine("Aircraft " + plane1.GetDistanceTraveled());
+            //Aircraft plane1 = new Aircraft(100, 1000000, "white", 600);
+            //plane1.Move();
+            //plane1.Move();
+            //Console.WriteLine("Aircraft " + plane1.GetDistanceTraveled());
+
+            Dishwasher dishwasher1 = new Dishwasher();
         }
     }
 }
