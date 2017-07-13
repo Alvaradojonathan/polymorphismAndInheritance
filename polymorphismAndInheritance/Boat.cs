@@ -9,6 +9,10 @@ namespace polymorphismAndInheritance
     class Boat:Vehicle
     {
         private double waterDrag;
+        public Boat()
+        {
+
+        }
 
         public Boat(int seats, int carryingCapacity, string color, double speed, double waterDrag)
         {
