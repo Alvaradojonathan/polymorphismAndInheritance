@@ -12,12 +12,14 @@ namespace polymorphismAndInheritance
         {
             //Inheritance means classes inherit properties or methods from a parent class.
             //e.g.
-            //Trasnportation(Base Class)            
-            //-capacity 
-            //-go 
+            //Trasnportation(Base/Parent Class)            Car(Derived/Sub/Child Class):Transportation
+            //-capacity                                     This class would inherit all of 
+            //-go                                           <- the properties in transportation.
             //-stop 
             //-reverse    
             //-turn
+
+
         }
     }
 }
