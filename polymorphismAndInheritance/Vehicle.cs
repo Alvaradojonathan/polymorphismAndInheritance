@@ -9,7 +9,7 @@ namespace polymorphismAndInheritance
     class Vehicle
     {
         protected int seats;
-        protected int capacity;
+        protected int carryingCapacity;
         protected string color;
         protected double speed;
         protected double distanceTraveled;
@@ -18,7 +18,7 @@ namespace polymorphismAndInheritance
         private float engineSize;
 
         public int Seats { get; }
-        public int Capacity { get; }
+        public int CarryingCapacity { get; }
         public string Color { get; set; }
         public double DistanceTraveled { get; }
 
@@ -27,10 +27,10 @@ namespace polymorphismAndInheritance
 
         }
 
-        public Vehicle(int seats, int capacity, string color, double speed)
+        public Vehicle(int seats, int carryingCapacity, string color, double speed)
         {
             this.seats = seats;
-            this.capacity = capacity;
+            this.carryingCapacity = carryingCapacity;
             this.color = color;
             this.speed = speed;
 
